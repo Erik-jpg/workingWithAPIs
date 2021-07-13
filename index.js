@@ -1,4 +1,4 @@
-// //Need name, location, bio, LinkedIn url, and GitHub URL.
+
 // fs = require('fs');
 // fs.writeFile('users.json', inquirer, [callback]);
 // const inquirer = require('inquirer');
@@ -54,6 +54,8 @@
 // h5.value=`${GitHub}`;
 
 // console.log(fs);
+
+//----------------------------------------------------------------
 
 // const inquirer = require('inquirer');
 // inquirer
@@ -118,6 +120,8 @@
 // </body>
 // </html>`
 
+//----------------------------------------------------------------
+
 // class Student {
 //     constructor(name){
 //         this.name = name
@@ -134,48 +138,4 @@
 
 // alice.printName();
 // brian.printName();
-
-// class Recipes {
-//     constructor(name, ingredients, cookingInstructions, temperatures) {
-//         this.name = name;
-//         this.ingredients = ingredients;
-//         this.cookingInstructions = cookingInstructions;
-//         this.temperatures = temperatures;
-//     }
-//     printInfo() {
-//         console.log(`name: ${this.name} \ningredients: ${this.ingredients} \ncookingInstructions: ${this.cookingInstructions} \n temperatures: ${this.temperatures}`)
-//     }
-// }
-// const RoastBeef = new Recipes({name: 'RoastBeef', ingredients: ['2lbs Chuck Roast', '4 large Carrots', '2 Yellow Onions', '2 large Russet potatoes'], cookingInstructions: ['Sear off roast', 'peel and chop carrots, potatoes, and onions', 'after roast is seared, toss all into a crock pot and set to cook for 4 hours'], temperatures:'set the crock pot temp to low'}); 
-
-
-// class Developer {
-//     constructor(name, tech) {
-//         this.name = name;
-//         this.tech = tech;
-//     }
-//     introduction() {
-//         console.log(`name: ${this.name} \n tech: ${this.tech}`)
-//     }
-// }
-
-class Pizza {
-    constructor({name, cheese, sauce, rating}){
-        this.name = name;
-        this.cheese = cheese;
-        this.sauce = sauce;
-        this.rating = rating;
-    }
-    printInfo(){
-        console.log(`name: ${this.name} \ncheese: ${this.cheese} \nsauce: ${this.sauce} \nrating: ${this.rating}`)
-    }
-    addIngredient(ingredients){
-        if (!ingredients.includes('')) {
-            this.ingredients.push(ingredients);    
-        }
-    }
-}
-
-const margarita = new Pizza({name: 'Margarita', ingredients: ['bread', 'cheese'], rating: '4/6'})
-margarita.printInfo()
 
