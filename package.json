@@ -1,0 +1,25 @@
+{
+  "name": "workingwithnode",
+  "version": "1.0.0",
+  "description": "just experiments with node-js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik-jpg/workingWithNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik-jpg/workingWithNode/issues"
+  },
+  "homepage": "https://github.com/Erik-jpg/workingWithNode#readme"
+}
