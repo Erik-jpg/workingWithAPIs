@@ -18,23 +18,29 @@
 // });
 
 // const { response } = require('express')
-// const express = require('express')
-// const app = express()
-// const PORT = 87650
-// fs = require('fs')
-// const pets = [];
+const express = require('express')
+const app = express()
+// ports are 3000 - 8000
+const PORT = 8765
+const fs = require('fs')
+const pets = [];
 
-// app.get('/', (reqest, response) => {
-//     response.send()
-// })
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// app.post('/', (request, response) => {
-// response.send()
-// }) 
+app.get('/', (request, response) => {
+    response.json(pets)
+})
 
-// app.listen(PORT, () => {
-//     console.log(`Server is listening for pets at ${PORT}`)
-// });
+app.post('/api/pets', (request, response) => {
+    console.log(request.body);
+    pets.push(request.body.pets)
+response.json(pets)
+}) 
+
+app.listen(PORT, () => {
+    console.log(`Server is listening for pets at ${PORT}`)
+});
 
 
 
