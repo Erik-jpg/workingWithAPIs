@@ -56,3 +56,19 @@
 
 //First Express server!
 
+// Input: Tammer Galal
+// Output: tammergalal
+// Input:    favorite tree    ever
+// Output: favoritetreeever
+// Input: one word
+// Output: oneword
+
+// let userInput = [];
+// userInput.prompt('Please enter two words to be joined')
+
+// function oneWord (userInput) {
+//     userInput.join(' ');
+//     return ''
+// }
+
+// oneWord();
